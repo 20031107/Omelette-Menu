@@ -8,6 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 8px;
+    font-weight: 600;
     background: rgb(247, 237, 226);
     height: 100vh;
     font-family: "EB Garamond";
