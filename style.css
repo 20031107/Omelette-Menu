@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    background: rgb(247, 237, 226);
+    height: 100vh;
+    font-family: "EB Garamond";
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.innerCont{
+    width: 100%;
+}
+.img{
+    width: 100%;
+    margin-top: 2px;
+    padding-left: 5px;
+}
+img{
+    border-radius: 10px;
+}
+.firstL{
+    padding: 6px 0px 6px 20px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: rgb(247, 237, 226);
+    margin-top: 6px;
+}
+.firstL ul{
+    padding-left: 12px;
+    margin-top: 2px;
+}
+h4{
+    font-size: 8px;
+}
+h1{
+    font-size: 15px;
+}
+section{
+    padding-left: 5px;
+}
+.Ingredients ul{
+    padding-left: 12px;
+    margin-top: 2px;
+}
+.Ingredients{
+    margin: 6px 0 6px 0;
+    
+}
+.Instructions ol{
+    padding-left: 8px;
+    margin-top: 2px;
+}
+.Instructions{
+    margin: 2px 0 6px 0;
+}
+h3{
+    font-size: 14px;
+    padding-top: 3px;
+    padding: 3px 0 3px 0;
+}
+table{
+    padding-top: 2px;
+}
+td{
+    padding: 1px;
+}
+.Ingredients li{
+    padding-top: 1px;
+}
+.Instructions li{
+    padding-top: 1px;
+}
+@media (min-width:320px) and (max-width:375px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        font-size: 7px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 50px;
+        background-color: white;
+        padding: 10px;
+    }
+    .innerCont{
+        width: 100%;
+    }
+    .img{
+        width: 40%;
+        padding-left: 5px;
+    }
+    img{
+        width:170px;
+        height:100px;
+    }
+    .firstL{
+        width: 170px;
+    }
+    
+}
