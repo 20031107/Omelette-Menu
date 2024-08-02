@@ -7,14 +7,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 8px;
-    font-weight: 600;
+    font-size: 12px;
+    margin: 100px 0 100px 0;
+    font-weight: 300;
     background: rgb(247, 237, 226);
-    height: 100vh;
+    height: 800px;
     font-family: "EB Garamond";
 }
 .container{
-    display: flex;
+    display: flex;  
+    padding-top: 1px;
     flex-direction: column;
     width: 350px;
     border-radius: 10px;
@@ -40,20 +42,21 @@ img{
     margin-top: 6px;
 }
 .firstL ul{
-    padding-left: 12px;
+    padding-left: 15px;
     margin-top: 2px;
 }
-h4{
-    font-size: 8px;
+h3{
+    font-size: 15px;
 }
 h1{
-    font-size: 15px;
+    font-size: 25px;
+    color: brown;
 }
 section{
     padding-left: 5px;
 }
 .Ingredients ul{
-    padding-left: 12px;
+    padding-left: 15px;
     margin-top: 2px;
 }
 .Ingredients{
@@ -67,10 +70,10 @@ section{
 .Instructions{
     margin: 2px 0 6px 0;
 }
-h3{
-    font-size: 14px;
-    padding-top: 3px;
+h2{
+    font-size: 20px;
     padding: 3px 0 3px 0;
+    color: brown;
 }
 table{
     padding-top: 2px;
@@ -85,6 +88,17 @@ td{
     padding-top: 1px;
 }
 @media (min-width:320px) and (max-width:375px){
+    body{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        margin-top: 350px;
+        margin-bottom: 350px;
+        font-weight: 300;
+        background: rgb(247, 237, 226);
+        height: 800px;
+        font-family: "EB Garamond";
+    }
     .container{
         display: flex;
         flex-direction: column;
